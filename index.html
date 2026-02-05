@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ÜST MENÜ */
+        .ust {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 20px;
+            gap: 15px;
+        }
+
+        .ust img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+
+        .ust a {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+        }
+
+        /* ORTA ALAN */
+        .orta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 120px;
+        }
+
+        .orta img {
+            width: 272px;
+            margin-bottom: 20px;
+        }
+
+        /* ARAMA */
+        .arama {
+            width: 480px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #dfe1e5;
+            padding: 0 15px;
+            font-size: 16px;
+            outline: none;
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+
+        /* BUTONLAR */
+        .butonlar {
+            margin-top: 30px;
+        }
+
+        .butonlar button {
+            height: 36px;
+            padding: 0 16px;
+            margin: 0 6px;
+            border: 1px solid #f2f2f2;
+            background-color: #f8f9fa;
+            font-size: 14px;
+            color: #5f6368;
+            cursor: pointer;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ÜST KISIM -->
+    <div class="ust">
+        <a href="#">Gmail</a>
+        <a href="#">Görseller</a>
+        <img src="assets/profile.jpg" alt="Profil">
+    </div>
+
+    <!-- ORTA KISIM -->
+    <div class="orta">
+        <img src="assets/logo.png" alt="Google Logo">
+
+        <input class="arama" type="text" placeholder="Google'da Ara">
+
+        <div class="butonlar">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </div>
+
+</body>
+</html>
